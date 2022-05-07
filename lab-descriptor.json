@@ -1,17 +1,17 @@
 {
-    "broadArea": {
-        "name": "Mechanical Engineering",
-        "link": "https://www.vlab.co.in/broad-area-mechanical-engineering"
-    },
-    "lab": "Virtual Vibrations & Acoustics Lab",
-    "lab_display_name": "Vibration and Acoustics Lab",
-    "deployLab": true,
-    "phase": 2,
-    "collegeName": "coep",
-    "baseUrl": "va-coep.vlabs.ac.in",
-    "introduction": "Mechanical Vibration is an important issue for mechanical fatigue failure, machinery precision, and manufacturing process. The mechanical design in domestic industry is still in a structural static analysis or even just for simple mechanics calculation and neglects the importance of dynamic analysis. On the other hand, the industrial noise problem becomes important for environmental concerns.</br></br>Acoustic is essentially vibration energy that propagates in a transmission medium such as air. Acoustics and vibration are interrelated and these mechanical phenomena often have a great impact on our daily lives, from listening to music to vehicle vibrations. Measurement and monitoring of sound and vibration are critical in many industry sectors such as aerospace, construction, automobile, electronics, manufacturing, and healthcare, as it has a great impact on the quality of products and services; performance and reliability of equipment; health and safety of the people. </br></br>The laboratory offers opportunities for hands-on, project-based learning and is used in the Mechanical Vibrations, Advanced Mechanical Vibrations, and interdisciplinary Acoustics, Vibration, and Noise Control courses. The laboratory is used in the Mechanical Vibration courses so students gain practical experience with accelerometers and data acquisition to characterize the dynamic properties of structures. In Advanced Vibration, students perform experimental modal analysis via impact hammer and shaker testing to predict, troubleshoot, and/or optimize structural response characteristics.",
-    "experiments": ["
-   {
+  "broadArea": {
+    "name": "Mechanical Engineering",
+    "link": "https://www.vlab.co.in/broad-area-mechanical-engineering"
+  },
+  "lab": "Virtual Vibrations & Acoustics Lab",
+  "lab_display_name": "Vibration and Acoustics Lab",
+  "deployLab": true,
+  "phase": 2,
+  "collegeName": "coep",
+  "baseUrl": "va-coep.vlabs.ac.in",
+  "introduction": "Mechanical Vibration is an important issue for mechanical fatigue failure, machinery precision, and manufacturing process. The mechanical design in domestic industry is still in a structural static analysis or even just for simple mechanics calculation and neglects the importance of dynamic analysis. On the other hand, the industrial noise problem becomes important for environmental concerns.</br></br>Acoustic is essentially vibration energy that propagates in a transmission medium such as air. Acoustics and vibration are interrelated and these mechanical phenomena often have a great impact on our daily lives, from listening to music to vehicle vibrations. Measurement and monitoring of sound and vibration are critical in many industry sectors such as aerospace, construction, automobile, electronics, manufacturing, and healthcare, as it has a great impact on the quality of products and services; performance and reliability of equipment; health and safety of the people. </br></br>The laboratory offers opportunities for hands-on, project-based learning and is used in the Mechanical Vibrations, Advanced Mechanical Vibrations, and interdisciplinary Acoustics, Vibration, and Noise Control courses. The laboratory is used in the Mechanical Vibration courses so students gain practical experience with accelerometers and data acquisition to characterize the dynamic properties of structures. In Advanced Vibration, students perform experimental modal analysis via impact hammer and shaker testing to predict, troubleshoot, and/or optimize structural response characteristics.",
+  "experiments": [
+    {
       "name": "MI of Connecting Rod",
       "short-name": "connecting-rod",
       "repo": "https://github.com/virtual-labs/exp-connecting-rod-coep",
@@ -66,15 +66,29 @@
       "repo": "https://github.com/virtual-labs/exp-tuned-vibration-absorber-coep",
       "tag": "v1.0.0",
       "deploy": true
-    }           
-                    "],
-    "targetAudience": {
-        "UG": ["Undergraduate students of Instrumentation and Control Engineering, Mechatronics Engineering, and Mechanical Engineering branches."],
-        "PG": ["Post-graduate students of Process Instrumentation, Mechatronics, and Production Engineering."]
-    },
-    "objective": "- Indicate the importance of the study of vibration</br> - Give various classifications of vibration</br> - State the steps involved in vibration analysis</br> - Compute the values of spring constants, masses, and damping constants</br> - Define harmonic motion and different possible representations of harmonic motion",
-    "courseAlignment": {
-        "description": "The syllabi of this lab aligns to the following universities in India",
-        "universities": ["Pune University","Indian Institute of Technology Bombay","Indian Institute of Technology Delhi","BMS College of Engineering, Bangalore","Institute has an Instrumentation and control department","Institute has a Mechanical Engineering department"]
     }
+  ],
+  "targetAudience": {
+    "UG": [
+      "Undergraduate students of Instrumentation and Control Engineering, Mechatronics Engineering, and Mechanical Engineering branches."
+    ],
+    "PG": [
+      "Post-graduate students of Process Instrumentation, Mechatronics, and Production Engineering."
+    ]
+  },
+  "objective": "- Indicate the importance of the study of vibration</br> - Give various classifications of vibration</br> - State the steps involved in vibration analysis</br> - Compute the values of spring constants, masses, and damping constants</br> - Define harmonic motion and different possible representations of harmonic motion",
+  "courseAlignment": {
+    "description": "The syllabi of this lab aligns to the following universities in India",
+    "universities": [
+      "Pune University",
+      "Indian Institute of Technology Bombay",
+      "Indian Institute of Technology Delhi",
+      "BMS College of Engineering, Bangalore",
+      "Institute has an Instrumentation and control department",
+      "Institute has a Mechanical Engineering department"
+    ]
+  },
+  "exp_name": "Tuned Vibration Absorber",
+  "exp_short_name": "tuned-vibration-absorber",
+  "version": "v0.1.0"
 }
