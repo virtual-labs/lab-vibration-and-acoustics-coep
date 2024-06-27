@@ -1,7 +1,8 @@
 {
   "broadArea": {
     "name": "Mechanical Engineering",
-    "link": "https://www.vlab.co.in/broad-area-mechanical-engineering"
+    "link": "https://www.vlab.co.in/broad-area-mechanical-engineering",
+    "code": "MECH"
   },
   "lab": "Virtual Vibrations & Acoustics Lab",
   "lab_display_name": "Vibration and Acoustics Lab",
@@ -87,8 +88,5 @@
       "Institute has an Instrumentation and control department",
       "Institute has a Mechanical Engineering department"
     ]
-  },
-  "exp_name": "Tuned Vibration Absorber",
-  "exp_short_name": "tuned-vibration-absorber",
-  "version": "v0.1.0"
+  }
 }
